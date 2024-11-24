@@ -17,9 +17,9 @@ def is_enabled(value, default):
 ADMIN = int(getenv("ADMIN", "7391766733"))
 SILICON_PIC = os.environ.get("SILICON_PIC", "https://envs.sh/KGT.jpg")
 API_ID = int(getenv("API_ID", "20763817"))
-API_HASH = str(getenv("API_HASH", "07186e8f2ffe607e99eedf7eaa5e630b"))
-BOT_TOKEN = str(getenv("BOT_TOKEN", "7391766733:AAFb90q1mPpdpGEshn4D13T9MdXC9UGSwKU"))
-FORCE_SUB = os.environ.get("FORCE_SUB", "moviesandwebserieshubOrzz")
+API_HASH = str(getenv("API_HASH", "07186e8f2ffe607e99eedf7eaa5e63b"))
+BOT_TOKEN = str(getenv("BOT_TOKEN", "7391766733:AAFb90q1mPpdpGEshn4D3T9MdXC9UGSwKU"))
+FORCE_SUB = os.environ.get("FORCE_SUB", "moviesandwebserieshub")
 MONGO_DB = str(getenv("MONGO_DB", "mongodb+srv://Hop:Cub@cluster0.5d3ch.mongodb.net/?retryWrites=true&w=majority",))
 DEF_CAP = str(
     getenv(
