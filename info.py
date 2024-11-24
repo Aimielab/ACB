@@ -19,7 +19,7 @@ SILICON_PIC = os.environ.get("SILICON_PIC", "https://envs.sh/KGT.jpg")
 API_ID = int(getenv("API_ID", "20763817"))
 API_HASH = str(getenv("API_HASH", "07186e8f2ffe607e99eedf7eaa5e630b"))
 BOT_TOKEN = str(getenv("BOT_TOKEN", "7391766733:AAFb90q1mPpdpGEshn4D13T9MdXC9UGSwKU"))
-FORCE_SUB = os.environ.get("FORCE_SUB", "moviesandwebserieshuborzz")
+FORCE_SUB = os.environ.get("FORCE_SUB", "-1001522888236")
 MONGO_DB = str(getenv("MONGO_DB", "mongodb+srv://Hop:Cub@cluster0.5d3ch.mongodb.net/?retryWrites=true&w=majority",))
 DEF_CAP = str(
     getenv(
